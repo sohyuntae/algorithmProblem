@@ -7,7 +7,10 @@ class Solution {
             answer += my_string;
             check++;
         }
-        
+       
         return answer;
+        
+        // repeat = 문자열 반복
+        // return my_string.repeat(k);
     }
 }
