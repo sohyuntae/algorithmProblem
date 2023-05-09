@@ -12,6 +12,9 @@ class Solution {
         
         if (answer.size < 1) answer = answer.plus(-1)
         
+        // 다른 개발자 내용
+        // (l..r).filter { it.toString().all { ch -> ch == '0' || ch == '5' } }.takeIf(List<Int>::isNotEmpty) ?: listOf(-1)
+        
         return answer
     }
 }
