@@ -10,6 +10,9 @@ class Solution {
             }
         }
         
+        // 다른 사람 풀이 (map 사용)
+        // return intStrs.map { it.substring(s, s + l).toInt() }.filter { it > k }
+        
         return answer
     }
 }
